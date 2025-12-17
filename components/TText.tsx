@@ -22,6 +22,7 @@ const styles = StyleSheet.create({
     body: {
         fontSize: 16,
         color: "#333",
+        fontFamily: 'Roboto-Regular'
     },
 });
 

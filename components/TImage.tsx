@@ -4,7 +4,9 @@ import { View, Image, StyleSheet } from "react-native";
 const MyReactNativeImage = () => { 
     return (
         <View style={styles.container}>
-        <Image source={require('@/assets/images/react-logo.png')} style={styles.localImage}/>        
+        <Image 
+        resizeMode='contain'
+        source={require('@/assets/images/react-logo.png')} style={styles.localImage}/>        
         <Image source={{ uri: 'https://picsum.photos/300'}} style={styles.networkImage}/>
         </View>
     );
